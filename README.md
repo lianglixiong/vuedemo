@@ -22,6 +22,8 @@ npm run build --report
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
 ```
+
+``` bash
 # 前言
 在开始开发实例前，应首先了解一下vue-cli的项目结构。接着我们一起来实现一个小demo——人员管理，功能简单，通过这个实例让大家熟悉使用vue-cli开发项目的一些操作，加深对vue-cli项目结构的印象。
 # 实例功能简述
