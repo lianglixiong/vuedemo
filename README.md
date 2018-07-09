@@ -212,15 +212,10 @@ vue中引入该组件
 我再把本例中用到的重要的知识点简单梳理一遍
 
 >1.每一个单文件组件.vue通常都是由三部分构成template、style、script（为什么说通常，因为也可以只有模板template，不写任何样式和功能，但大多数组件都会有自己的样式和功能）。其中style有2个点，第一，可以引用外部样式，第二，作用域scoped。
-
 >2.单文件组件的引用，需要先在script中用import引用（同时命名）格式为
-
 >import [命名] from [相对路径]
-
 >再用components:{ [命名] }局部注册
-
 >最后在模板中使用，注意命名格式。如果是驼峰HeadNav或headNav，使用时就是<head-nav>
-
 >3.多使用vue指令，常用的有v-show，v-if，v-on，v-bind，v-model
 
 
@@ -251,7 +246,4 @@ npm run build --report
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
 ```
-
-
-***
 
