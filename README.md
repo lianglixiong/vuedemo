@@ -64,13 +64,15 @@ div的fixed样式写在了公共样式public.css里面，并在App.vue中引入�
 可以看到footer.vue使用了<router-link>标签，该标签主要实现跳转链接功能，属性to='/'即是跳转到path为'/'的路径（即我们在路由配置中定义的Index路由）
 
 #### （2）scoped
-在<style>标签上添加scoped，声明作用域，样式效果只在该页面内生效，不污染全局。
+
+>在<style>标签上添加scoped，声明作用域，样式效果只在该页面内生效，不污染全局。
 
 ### 3. 在首页中引入底部导航组件
+
 >我们刚刚创建了footer.vue，但还未引入，在首页模块views/index/index.
->vue中引入该组件
+vue中引入该组件
 
-
+<img src="https://upload-images.jianshu.io/upload_images/5700710-439430cf08c62961.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/653" alt="">
 
 
 
