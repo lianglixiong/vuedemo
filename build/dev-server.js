@@ -1,3 +1,7 @@
+/**
+ * 构建本地服务器(npm run dev 即运行它)
+ */
+
 require('./check-versions')()
 
 var config = require('../config')

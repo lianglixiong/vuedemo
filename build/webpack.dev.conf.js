@@ -1,3 +1,7 @@
+/**
+ * webpack开发环境配置
+ */
+
 var utils = require('./utils')
 var webpack = require('webpack')
 var config = require('../config')

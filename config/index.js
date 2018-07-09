@@ -1,3 +1,7 @@
+/**
+ * 项目主要配置(包括监听端口，打包路劲等)
+ */
+
 // see http://vuejs-templates.github.io/webpack for documentation.
 var path = require('path')
 

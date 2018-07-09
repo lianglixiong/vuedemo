@@ -1,3 +1,7 @@
+/**
+ * 项目开发环境配置
+ */
+
 var merge = require('webpack-merge')
 var prodEnv = require('./prod.env')
 
