@@ -1,5 +1,12 @@
 /**
  * webpack基础配置
+ * 1.配置webpack编译入口
+ * 2.配置webpack输出路径和命名规则
+ * 3.配置模块resolve规则
+ * 4.配置不同类型模块的处理规则
+ *
+ * 说明： 这个配置里面只配置了.js、.vue、图片、字体等几类文件的处理规则，
+ * 如果需要处理其他文件可以在module.rules里面另行配置。
  */
 
 var path = require('path')

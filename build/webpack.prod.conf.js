@@ -1,5 +1,13 @@
 /**
  * webpack生产环境配置
+ * 1.合并基础的webpack配置
+ * 2.配置样式文件的处理规则，styleLoaders
+ * 3.配置webpack的输出
+ * 4.配置webpack插件
+ * 5.gzip模式下的webpack插件配置
+ * 6.webpack-bundle分析
+ *
+ * 说明： webpack插件里面多了丑化压缩代码以及抽离css文件等插件。
  */
 
 var path = require('path')

@@ -1,5 +1,17 @@
 /**
  * 构建本地服务器(npm run dev 即运行它)
+ * 1.检查node和npm的版本、引入相关插件和配置
+ * 2.webpack对源码进行编译打包并返回compiler对象
+ * 3.创建express服务器
+ * 4.配置开发中间件（webpack-dev-middleware）和热重载中间件（webpack-hot-middleware）
+ * 5.挂载代理服务和中间件
+ * 6.配置静态资源
+ * 7.启动服务器监听特定端口（8080）
+ * 8.自动打开浏览器并打开特定网址（localhost:8080）
+ * 
+ * 说明： express服务器提供静态文件服务，不过它还使用了http-proxy-middleware，
+ * 一个http请求代理的中间件。前端开发过程中需要使用到后台的API的话，
+ * 可以通过配置proxyTable来将相应的后台请求代理到专用的API服务器。
  */
 
 // 检查NodeJS和npm的版本

@@ -1,5 +1,10 @@
 /**
  * webpack开发环境配置
+ * 1.将webpack的热重载客户端代码添加到每个entry对应的应用
+ * 2.合并基础的webpack配置
+ * 3.配置样式文件的处理规则，styleLoaders
+ * 4.配置Source Maps
+ * 5.配置webpack插件
  */
 
 var utils = require('./utils')
